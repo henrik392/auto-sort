@@ -1,0 +1,20 @@
+{
+    "ext": {
+        "image": ".jpg.jpeg.png.gif",
+        "document": ".doc.docx.txt.odt.pdf.xls.xlsx.ods.ppt.pptx"
+    },
+    "analyze": [
+        {
+            "track": "HOMEDIR/Downloads",
+            "dest": [{
+                "ext": "image",
+                "dest": "HOMEDIR/Pictures"
+                },
+                {
+                    "ext": "document",
+                    "dest": "HOMEDIR/Documents"
+                }
+            ]
+        }
+    ]
+}
