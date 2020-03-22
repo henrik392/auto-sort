@@ -5,15 +5,16 @@
     },
     "analyze": [
         {
-            "track": "HOMEDIR/Downloads",
-            "dest": [{
+            "track": "$HOME$/Downloads",
+            "dest": [
+            {
                 "ext": "image",
-                "dest": "HOMEDIR/Pictures"
-                },
-                {
-                    "ext": "document",
-                    "dest": "HOMEDIR/Documents"
-                }
+                "dest": "$HOME$/Pictures"
+            },
+            {
+                "ext": "document",
+                "dest": "$HOME$/Documents"
+            }
             ]
         }
     ]
