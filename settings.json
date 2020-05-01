@@ -1,7 +1,16 @@
 {
     "ext": {
-        "image": ".jpg.jpeg.png.gif",
-        "document": ".doc.docx.txt.odt.pdf.xls.xlsx.ods.ppt.pptx"
+        "image": {
+            "ext": ".jpg.jpeg.png.gif.tif",
+            "check_folder": true,
+            "match_precent": 60
+        },
+        "document": {
+            "ext": ".doc.docx.txt.odt.pdf.xls.xlsx.ods.ppt.pptx"
+        },
+        "adobe": {
+            "ext": ".psd.ai"
+        }
     },
     "analyze": [
         {
@@ -14,6 +23,10 @@
             {
                 "ext": "document",
                 "dest": "$HOME$/Documents"
+            },
+            {
+                "ext": "adobe",
+                "dest": "$HOME$/Creative Cloud Files"
             }
             ]
         }
